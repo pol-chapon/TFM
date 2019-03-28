@@ -1,7 +1,7 @@
 import numpy as np
 import scipy.ndimage
 
-def resample(image, spacing, new_spacing=[1, 1, 1], method='nearest'):
+def resample(image, spacing, new_spacing=[1, 1, 1], method='linear'):
     """
     Resample image given spacing (in mm) to new_spacing (in mm).
     
